@@ -13,25 +13,7 @@ Everything runs on plain NumPy. No black box models, no assumed bell curve. The 
 - A plain-language "what it means" panel that turns the percentages into dollars.
 - Full English / Russian toggle. Flip the language and nothing reloads, the data stays cached.
 
-## Screenshot
-
 ![Dashboard](docs/screenshot.png)
-
-*(Drop a PNG at `docs/screenshot.png` to show it here.)*
-
-## Quick start
-
-You need Python 3.10 or newer.
-
-```bash
-git clone https://github.com/<your-username>/portfolio-risk-analyzer.git
-cd portfolio-risk-analyzer
-
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-The app opens in your browser. Type a ticker (NVDA by default), pick a position size, a history window, and a confidence level. That is it.
 
 ## How the math works
 
