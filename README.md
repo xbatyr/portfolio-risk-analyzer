@@ -1,5 +1,7 @@
 # Advanced VaR & Expected Shortfall Engine
 
+**Live demo: [portfolio-risk-analyzer-xbatyr.streamlit.app](https://portfolio-risk-analyzer-xbatyr.streamlit.app/)**
+
 A Streamlit dashboard that measures the market risk of a single stock from its own price history, and shows the upside side of the distribution too. Point it at a ticker, set your position size, and it tells you how much you can lose on a normal bad day, how much on a crisis day, and the mirror image for gains.
 
 Everything runs on plain NumPy. No black box models, no assumed bell curve. The numbers come straight from the real return distribution, so they are easy to explain and easy to defend.
